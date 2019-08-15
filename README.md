@@ -7,7 +7,17 @@ Deberás configurar antes tu proyecto en Firebase para incluir la información d
 src/environments/firebaseconfig.ts
 ```
 
-Para correr el proyecto necesitarás correr el comando
+Antes de correr el proyecto necesitarás instalar los modulos de node:
 ```
 npm install
+```
+
+En caso que hayan vulnerabilidades puedes solucionarlas con:
+```
+npm audit fix
+```
+
+Corre el Proyecto:
+```
+ionic serve
 ```
