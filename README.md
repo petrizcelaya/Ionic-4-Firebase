@@ -6,3 +6,8 @@ Deberás configurar antes tu proyecto en Firebase para incluir la información d
 ```
 src/environments/firebaseconfig.ts
 ```
+
+Para correr el proyecto necesitarás correr el comando
+```
+npm install
+```
